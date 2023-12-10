@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Музыкально-литературный портал</title>
+    <link rel="shortcut icon" href="imgs/Profile.svg" type="image/svg">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+  </head>
+  <body>
+    <div class="modal">
+
+      <form class="modal__wrapper">
+        <img src="" alt="" class="modal__photo">
+        <div class="modal__content">
+          <h4 class="modal__title title-font"></h4>
+          <p class="modal__text regular-font"></p>
+        </div>
+        <div class="modal_buttons">
+          <button class="modal__btn-cancel">
+            Ой, не
+          </button>
+          <input type="submit" value="Вступить" class="modal__btn-submit">
+        </div>
+      </form>
+
+    </div>
+    <div class="modal__book">
+      <embed src="" type="" id="embed" width="70%" height="80%">
+    </div>
+
+
+    <div class="main-content">
+      <div class="nav-wrap">
+        <aside class="navbar">
+          <div>MusLet</div>
+          <a href="index.html">Главная</a>
+          <a href="last-updates.html">Статьи</a>
+          <a href="popular-right-now.html">Сообщества</a>
+          <a href="books/index.html">Книги</a>
+        </aside>
+        <!-- <div class="nav-footer flex-row-center">
+          <img src="imgs/Profile.svg" alt="" class="nav-footer__logo">
+          <p class="regular-font">
+            Ваша аватарка
+          </p>
+          <img src="imgs/Deafen.svg" alt="">
+          <img src="imgs/Add Friend.svg" alt="" style="margin-top: 14px;">
+        </div> -->
+      </div>
+
+      <div class="blog">
+
+        <search class="search-wrap flex-row-center" role="search">
+          <div class="burger">
+            <span></span>
+          </div>
+          <!-- <input type="search" name="" class="search regular-font " placeholder="Исследуйте"> -->
+          <div class="search">
+            <i class="bi bi-search"></i>
+            <input type="text" placeholder="search Music..." value="" class="search-music">
+            <div class="search_results">
+                <!-- <a href="" class="card">
+                    <img src="Music_Website/img/1.png" alt="">
+                    <div class="content">
+                        On My Way
+                        <div class="subtitle">Alan WALKER</div>
+                    </div>
+                </a> -->
+          </div>
+        </div>
+          
+
+          <div class="signin-and-sign-up">
+            <a href="signin/signin.html" class="link-font">Вход</a>
+            <a href="signup/index.html" class="link-font">Регистрация</a>
+          </div>
+        </search>
+        
+        
+
+
+        <!-- <div class="dasscord flex-row-center">
+          <div class="dasscord-add title-font flex-row-center">
+            <h1>Добро пожаловать!</h1>
+          </div>
+        </div> -->
+        <div class="last-updates">
+          <h3 class="title-font">Музыка</h3>
+          
+        </div>
+
+
+        <div class="menu_song">
+          <li class="songItem">
+              <span>01</span>
+              <img src="img/1.png" alt="">
+              <h5> 
+                  <div class="subtitle"></div>
+              </h5>
+              <i class="bi playListPlay bi-play-circle-fill" id="1"></i>
+          </li>
+          <li class="songItem">
+              <span>02</span>
+              <img src="img/2.png" alt="">
+              <h5><br> 
+                  <div class="subtitle"></div>
+              </h5>
+              <i class="bi playListPlay bi-play-circle-fill" id="2"></i>
+          </li>
+          <li class="songItem">
+              <span>03</span>
+              <img src="img/2.png" alt="">
+              <h5><br> 
+                  <div class="subtitle"></div>
+              </h5>
+              <i class="bi playListPlay bi-play-circle-fill" id="3"></i>
+          </li>
+          <li class="songItem">
+              <span>04</span>
+              <img src="img/2.png" alt="">
+              <h5><br> 
+                  <div class="subtitle"></div>
+              </h5>
+              <i class="bi playListPlay bi-play-circle-fill" id="4"></i>
+          </li>
+          <li class="songItem">
+              <span>05</span>
+              <img src="img/2.png" alt="">
+              <h5><br> 
+                  <div class="subtitle"></div>
+              </h5>
+              <i class="bi playListPlay bi-play-circle-fill" id="5"></i>
+          </li>
+          <li class="songItem">
+              <span>06</span>
+              <img src="img/2.png" alt="">
+              <h5><br> 
+                  <div class="subtitle"></div>
+              </h5>
+              <i class="bi playListPlay bi-play-circle-fill" id="6"></i>
+          </li>
+          <li class="songItem">
+              <span>07</span>
+              <img src="img/2.png" alt="">
+              <h5> <br> 
+                  <div class="subtitle"></div>
+              </h5>
+              <i class="bi playListPlay bi-play-circle-fill" id="7"></i>
+          </li>
+          <li class="songItem">
+              <span>08</span>
+              <img src="img/2.png" alt="">
+              <h5> <br> 
+                  <div class="subtitle"></div>
+              </h5>
+              <i class="bi playListPlay bi-play-circle-fill" id="8"></i>
+          </li> 
+      </div>   
+
+        
+        
+
+        <!-- <div class="Hello">
+          <h1>Добро пожаловать!</h1>
+        </div> -->
+
+
+        <div class="last-updates">
+          <h3 class="title-font">Недавние обновления</h3>
+          <a href="last-updates.html"class="link-font">Посмотреть все</a>
+        </div>
+        <!-- Тут хранилище для ссылок на статьи -->
+        <div class="last-updates-list card-storage swiper-container">
+          <div class="swiper-wrapper">
+            <!-- <div class="swiper-slide update-card card-link">
+              <h3 class="title-font card-title pad-z-relative">${articles[articleId].title}</h3>
+              <p class="regular-font pad-z-relative card-description">${articles[articleId].description}</p>
+              <div class="likes-and-views pad-z-relative ">
+                <div class="likes regular-font">
+                    Likes: ${articles[articleId].likes}
+                </div>
+                <div class="views regular-font">
+                    Views: ${articles[articleId].views}
+                </div>
+              </div>
+            </div>  -->
+            
+            
+            
+            
+      
+          </div>
+        </div>
+        
+        <!-- Тут хранилище для ссылок на сообщества-->
+        <div class="last-updates">
+          <h3 class="title-font">Сообщества</h3>
+          <a href="popular-right-now.html" class="link-font">Посмотреть все</a>
+        </div>
+        <div class="carousel card-storage swiper-container ">
+          <div class="swiper-wrapper">
+            
+          </div>
+          
+        </div>
+
+        <!-- <div class="last-updates">
+          <h3 class="title-font">Музыка</h3>
+          
+        </div>
+
+
+        <div class="menu_song">
+          <li class="songItem">
+              <span>01</span>
+              <img src="img/1.png" alt="">
+              <h5>On My Way <br> 
+                  <div class="subtitle">Alan Walker</div>
+              </h5>
+              <i class="bi playListPlay bi-play-circle-fill" id="1"></i>
+          </li>
+          <li class="songItem">
+              <span>02</span>
+              <img src="img/2.png" alt="">
+              <h5>On My Way <br> 
+                  <div class="subtitle">Alan Walker</div>
+              </h5>
+              <i class="bi playListPlay bi-play-circle-fill" id="2"></i>
+          </li>
+          <li class="songItem">
+              <span>03</span>
+              <img src="img/2.png" alt="">
+              <h5>On My Way <br> 
+                  <div class="subtitle">Alan Walker</div>
+              </h5>
+              <i class="bi playListPlay bi-play-circle-fill" id="3"></i>
+          </li>
+          <li class="songItem">
+              <span>04</span>
+              <img src="img/2.png" alt="">
+              <h5>On My Way <br> 
+                  <div class="subtitle">Alan Walker</div>
+              </h5>
+              <i class="bi playListPlay bi-play-circle-fill" id="4"></i>
+          </li>
+          <li class="songItem">
+              <span>05</span>
+              <img src="img/2.png" alt="">
+              <h5>On My Way <br> 
+                  <div class="subtitle">Alan Walker</div>
+              </h5>
+              <i class="bi playListPlay bi-play-circle-fill" id="5"></i>
+          </li>
+          <li class="songItem">
+              <span>06</span>
+              <img src="img/2.png" alt="">
+              <h5>On My Way <br> 
+                  <div class="subtitle">Alan Walker</div>
+              </h5>
+              <i class="bi playListPlay bi-play-circle-fill" id="6"></i>
+          </li>
+          <li class="songItem">
+              <span>07</span>
+              <img src="img/2.png" alt="">
+              <h5>On My Way <br> 
+                  <div class="subtitle">Alan Walker</div>
+              </h5>
+              <i class="bi playListPlay bi-play-circle-fill" id="7"></i>
+          </li>
+          <li class="songItem">
+              <span>08</span>
+              <img src="img/2.png" alt="">
+              <h5>On My Way <br> 
+                  <div class="subtitle">Alan Walker</div>
+              </h5>
+              <i class="bi playListPlay bi-play-circle-fill" id="8"></i>
+          </li> 
+      </div>    -->
+      
+      <div class="last-updates">
+        <h3 class="title-font">Книги</h3>
+        <!-- <div class="book1">
+          <div class="back"></div>
+          <div class="page6"></div>
+          <div class="page5"></div>
+          <div class="page4"></div>
+          <div class="page3"></div>
+          <div class="page2"></div>
+          <div class="page1"></div>
+          <div class="front"></div>
+        </div> -->
+        <a href="last-updates.html"class="link-font">Посмотреть все</a>
+      </div>
+      <div class="book__main">
+        
+        <!-- <div class="block">
+          <div class="book1">
+            <div class="back"></div>
+            <div class="page6"></div>
+            <div class="page5"></div>
+            <div class="page4"></div>
+            <div class="page3"></div>
+            <div class="page2"></div>
+            <div class="page1"></div>
+            <div class="front"></div>
+          </div>
+          <p>Автор</p>
+          <p>Название книги</p>
+        </div> -->
+        
+      </div>
+
+
+        <div class="master_play">
+          <div class="wave" id="wave">
+              <div class="wave1"></div>
+              <div class="wave1"></div>
+              <div class="wave1"></div>
+          </div>
+          <img src="Music_Website/img/1.jpg" width="45px" height="45px" alt="" id="poster_master_play">
+          <h5 id="title">
+              Rampampam
+              <div class="subtitle">Mineli</div>
+          </h5>
+          <div class="icon">
+              <i class="bi shuffle bi-music-note-beamed">next</i>
+              <i class="bi bi-skip-start-fill" id="back"></i>
+              <i class="bi bi-play-fill" id="masterPlay"></i>
+              <i class="bi bi-skip-end-fill" id="next"></i>
+          </div>
+          <span id="currentStart">0:00</span>
+          <div class="bar">
+              <input type="range" id="seek" min="0" max="100">
+              <div class="bar2" id="bar2"></div>
+              <div class="dot"></div>
+          </div>
+          <span id="currentEnd">0:30</span>
+          <div class="vol">
+              <i class="bi bi-volume-up-fill" id="vol_icon"></i>
+              <input type="range" min="0" max="100" id="vol">
+              <div class="vol_bar"></div>
+              <div class="dot" id="vol_dot"></div>
+          </div>
+        </div>
+      </div> 
+    </div>
+  <script src="database.js"></script>
+  <script src="constructor.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script  defer src="slider.js"></script>
+  <script src="popup.js"></script>
+  <script src="app.js"></script>
+  <script src="burger.js"></script>
+  </body>
+</html>
