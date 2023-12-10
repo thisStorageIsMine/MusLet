@@ -208,13 +208,7 @@ const books = [
     title: 'Богатый папа, Бедный папа',
     pdf: 'pdf/papa.pdf'
   },
-  {
-    img: "imgs/book-education-study-svgrepo-com.svg",
-    autorName: "Иван",
-    autorSurname: "Крылов",
-    title: 'Басни',
-    pdf: 'pdf/Krilov.pdf'
-  },
+  
   {
     img: "imgs/book-education-study-svgrepo-com.svg",
     autorName: "Николай",
@@ -239,10 +233,7 @@ const books1 = [
 
     pdf: 'books/pdf/papa.pdf'
   },
-  {
 
-    pdf: 'books/pdf/Krilov.pdf'
-  },
   {
 
     pdf: 'books/pdf/Geologiya.pdf'
