@@ -310,6 +310,9 @@ music.addEventListener('timeupdate', ()=>{
         sec1 = `0${sec1}`;
     }
     currentEnd.innerHTML = `${min1}:${sec1}`;
+    if(currentEnd.innerHTML === "NaN:NaN") {
+        currentEnd.innerHTML = "Аркадий";
+    }
     
     let min2 = Math.floor(music_curr / 60);
     let sec2 = Math.floor(music_curr % 60);
