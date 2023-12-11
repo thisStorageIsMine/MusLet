@@ -48,79 +48,8 @@ const songs = [
         songName: `3-е сентебря <br> 
         <div class="subtitle">Михаил Шафутинский</div>`,
         poster: "Music_Website/img/8.jpg",
-    },
-    // {
-    //     id:9,
-    //     songName: `отчим <br> 
-    //     <div class="subtitle">кис-кис</div>`,
-    //     poster: "Music_Website/img/6.png",
-    // },
-    // {
-    //     id:10,
-    //     songName: `дура <br> 
-    //     <div class="subtitle">кис-кис</div>`,
-    //     poster: "Music_Website/img/1.png",
-    // },
-    // {
-    //     id:11,
-    //     songName: `вторник <br> 
-    //     <div class="subtitle">кис-кис</div>`,
-    //     poster: "Music_Website/img/1.png",
-    // },
-    // {
-    //     id:12,
-    //     songName: `женская дружба <br> 
-    //     <div class="subtitle">кис-кис</div>`,
-    //     poster: "Music_Website/img/7.png",
-    // },
-    // {
-    //     id:13,
-    //     songName: `тиндер <br> 
-    //     <div class="subtitle">кис-кис</div>`,
-    //     poster: "Music_Website/img/2.png",
-    // },
-    // {
-    //     id:14,
-    //     songName: `качели <br> 
-    //     <div class="subtitle">кис-кис</div>`,
-    //     poster: "Music_Website/img/7.png",
-    // },
-    // {
-    //     id:15,
-    //     songName: `Личка <br> 
-    //     <div class="subtitle">кис-кис</div>`,
-    //     poster: "Music_Website/img/2.png",
-    // },
-    // {
-    //     id:16,
-    //     songName: `Друзья <br> 
-    //     <div class="subtitle">кис-кис</div>`,
-    //     poster: "Music_Website/img/8.png",
-    // },
-    // {
-    //     id:17,
-    //     songName: `здоровью.нет <br> 
-    //     <div class="subtitle">кис-кис</div>`,
-    //     poster: "Music_Website/img/7.png",
-    // },
-    // {
-    //     id:18,
-    //     songName: `сорри <br> 
-    //     <div class="subtitle">кис-кис</div>`,
-    //     poster: "Music_Website/img/9.png",
-    // },
-    // {
-    //     id:19,
-    //     songName: `не учи <br> 
-    //     <div class="subtitle">кис-кис</div>`,
-    //     poster: "Music_Website/img/9.png",
-    // },
-    // {
-    //     id:20,
-    //     songName: `фарш <br> 
-    //     <div class="subtitle">кис-кис</div>`,
-    //     poster: "Music_Website/img/2.png",
-    // }
+    }
+    
 ]
 
 Array.from(document.getElementsByClassName('songItem')).forEach((e, i) =>{
