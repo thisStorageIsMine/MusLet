@@ -1389,7 +1389,7 @@ h5::first-letter {
         display: none;
     }
 
-    .main-content:has(.open) :is(.navbarr, .blog) {
+    .main-content:has(.open) :is(.navbarr, .blog, .master_play) {
         filter: brightness(50%);
         pointer-events: none;
     }
