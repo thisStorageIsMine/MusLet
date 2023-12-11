@@ -1280,10 +1280,7 @@ h5::first-letter {
     justify-content: center;
 }
 
-.main-content:has(.open) :is(.navbarr, .blog) {
-    filter: brightness(50%);
-    pointer-events: none;
-}
+
 
 .remove-burger {
     position: absolute;
@@ -1295,11 +1292,7 @@ h5::first-letter {
     min-width: 179px;
 }
 
-@media (min-width: 1200px) {
-    .nav-footer {
-        min-width: 179px;
-    }
-}
+
 
 @media (max-width:1300px) {
     .popular-card > svg {
@@ -1309,6 +1302,9 @@ h5::first-letter {
 
 
 @media (max-width:1200px) {
+    .nav-footer {
+        min-width: 179px;
+    }
     
     .main-content {
         margin-top: 0;
@@ -1393,6 +1389,10 @@ h5::first-letter {
         display: none;
     }
 
+    .main-content:has(.open) :is(.navbarr, .blog) {
+        filter: brightness(50%);
+        pointer-events: none;
+    }
     
 
 }
