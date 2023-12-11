@@ -20,3 +20,5 @@ function hideBurger() {
         aside.classList.remove("open");
     }
 }
+
+new ResizeObserver(hideBurger).observe(body);
