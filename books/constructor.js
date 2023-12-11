@@ -97,7 +97,7 @@ function renderBooks(i){
     storage_create.innerHTML = `
     <p class="title-font" style="font-size:14px;">${books[i].title}</p>
     <p class="regular-font" style="font-size:12px;position: relative;
-    right: -70%;">${books[i].autorName} ${books[i].autorSurname}</p>
+    right: -60%;">${books[i].autorName} ${books[i].autorSurname}</p>
     <p class='time regular-font' style="font-size:12px">${data.getDate()} ${getMonthName(data.getMonth())}</p>
     `;
     storage_create.addEventListener("click",showBook);
