@@ -220,7 +220,7 @@ const books = [
     img: "imgs/book-education-study-svgrepo-com.svg",
     autorName: "Дэвид",
     autorSurname: "Флэнаган",
-    title: 'JavaScript',
+    title: 'Учебник по JavaScript',
     pdf: 'pdf/JavaScript.pdf'
   }
 ];
