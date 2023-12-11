@@ -52,26 +52,26 @@ function renderBooks(i){
 
   function showBook() {
     modal.style.zIndex = "100";
-        modal.style.opacity = "1";
-        window.onkeydown = (event) => {
-          
-          if(event.key ==="Escape") {
-            modal.style.zIndex = "";
-            modal.style.opacity = "";
-            window.onkeydown = null;
-          }
-        }
-        embed.src=`${books[i].pdf}`;
-        btn = document.querySelector('button');
-        modal.addEventListener("click", function(event) {
-          if(event.target.tagName==="EMBED"){
-            event.stopPropagation();
-          } else {
-            modal.style.zIndex = "";
-            modal.style.opacity = "";
-            window.onkeydown = null;
-          }
-        });
+    modal.style.opacity = "1";
+    window.onkeydown = (event) => {
+      
+      if(event.key ==="Escape") {
+        modal.style.zIndex = "";
+        modal.style.opacity = "";
+        window.onkeydown = null;
+      }
+    }
+    embed.src=`${books[i].pdf}`;
+    btn = document.querySelector('button');
+    modal.addEventListener("click", function(event) {
+      if(event.target.tagName==="EMBED"){
+        event.stopPropagation();
+      } else {
+        modal.style.zIndex = "";
+        modal.style.opacity = "";
+        window.onkeydown = null;
+      }
+    });
   }
 
   createBtnRemove.addEventListener("click",function(event) {
