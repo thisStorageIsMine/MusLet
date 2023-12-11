@@ -308,4 +308,7 @@
     .nav-wrapp {
         display: none;
     }
+    :is(.createBtn, .removeBtn) {
+        display: none;
+    }
 }
