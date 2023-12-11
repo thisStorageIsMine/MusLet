@@ -233,19 +233,16 @@ body {
 .navbar > a::before {
     content: "";
     position: absolute;
-    width: 100%;
+    width: 0%;
     left: 0;
     bottom: -10px;
     height: 3px;
     background-color: #00E9FF;
-    transform-origin: right;
-    transform: scaleX(0);
     transition: transform .3s ease-in-out;
 }
 
 body .navbar > a:hover::before {
-    transform-origin: left;
-    transform: scaleX(1);
+    width: 100%;
 }
 
 .nav-wrap{
