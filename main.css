@@ -253,7 +253,7 @@ body .navbar > a:hover::before {
     align-items: center;
     max-width: 320px;
     /* max-height: 843.141px; */
-    
+    transition: .3s ease-in;
     
 }
 
