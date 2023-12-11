@@ -197,8 +197,8 @@ const books = [
   {
     img: "imgs/book-education-study-svgrepo-com.svg",
     autorName: "Джеймс",
-    autorSurname: "Олег",
-    title: '1984',
+    autorSurname: "Оруэлл",
+    title: 'Джеймся Оруэлл - 1984',
     pdf: 'pdf/1984_1948.pdf'
   },
   {
