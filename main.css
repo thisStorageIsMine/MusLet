@@ -771,6 +771,7 @@ background: navy;
     max-height: 210px;
     overflow: auto;
     cursor: pointer;
+    overflow: hidden;
 }
 
 .book__main .book {
