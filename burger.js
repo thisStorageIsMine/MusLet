@@ -14,3 +14,9 @@ if(burger){
         }, {capture:true})
     });
 }
+
+function hideBurger() {
+    if (body.offsetWidth >= 1200) {
+        aside.classList.remove("open");
+    }
+}
