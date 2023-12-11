@@ -498,7 +498,6 @@ input[type="search"] {
     margin-top: 4px;
 }
 
-
 .article-wrap {
     margin-top: 50px;
     width: 100%;
@@ -1456,6 +1455,9 @@ h5::first-letter {
 }
 
 @media (max-width: 700px) {
+    .songItem {
+        display: block !important;
+    }
     body .update-card {
         width: 65%;
     }
