@@ -1534,6 +1534,10 @@ h5::first-letter {
         height: 50px;
     }
 
+    .master_play .wave {
+        display: none;
+    }
+
     .wave1 {
         display: none;
     }
