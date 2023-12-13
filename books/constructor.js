@@ -114,7 +114,7 @@ function renderBooks(i){
   
   create.classList.add('book');
   create.innerHTML= `
-          <img src="imgs/book/book1.png" alt="">
+          <img src="../imgs/book-education-study-svgrepo-com.svg" alt="">
           <p>${books[i].title}</p>
           <p>${books[i].autorName} ${books[i].autorSurname}</p>
   `;
