@@ -158,6 +158,8 @@
         gap: 5px;
         transition: .2s all ease-in-out;
         cursor: pointer;
+        max-width: 170px;
+        white-space: nowrap;
     }
     
     .book:hover{
