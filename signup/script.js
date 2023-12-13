@@ -15,7 +15,7 @@ document.querySelector('.Signup').addEventListener('click', (e)=>{
         bool = true
     }else{bool = false}
     console.log(bool);
-    if (bool === true) {
+    if (bool) {
         e.preventDefault();
         if (repeat === password) {
             e.preventDefault();
