@@ -5,7 +5,7 @@ document.querySelector('.Signup').onclick = (e) =>{
     if (document.querySelector('.password').value.length != 0) {
         bool = true
     }else {bool=false}
-    if (bool == true) {
+    if (bool) {
         e.preventDefault();
         window.location.href = '../index.html'
     }
